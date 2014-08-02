@@ -11,3 +11,7 @@ repositories {
 }
 
 mainClassName="service.PersonApplication"
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
